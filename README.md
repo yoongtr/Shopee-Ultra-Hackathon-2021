@@ -40,4 +40,4 @@ Available envs: dev, and prod
 
 ## Documentation
 
-[Project Document](https://docs.google.com/document/d/1G9kcqLCFw3FmVnlxdUGRD793LMk7xN7DVgvUk_gSYVE/edit?ts=5ff3e3f8#)
+[Project Document](https://docs.google.com/document/d/1wQVtdZSiNEx5daiKbl_NA1TK9vQ2oCFGHdRww6PAQBw)
