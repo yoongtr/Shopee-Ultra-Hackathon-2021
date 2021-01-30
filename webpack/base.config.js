@@ -13,7 +13,7 @@ const APP_DIR = path.resolve(__dirname, '../src');
 
 module.exports = function(env) {
   const scope =
-    env.env === 'dev' ? '[local]__[hash:base64:6]' : '[hash:base64:6]';
+    env.env === 'dev' ? '[local]' : '[hash:base64:6]';
 
   const file_name =
     env.env === 'dev' ? '[name]-[hash].js' : '[name]-[chunkhash].js';

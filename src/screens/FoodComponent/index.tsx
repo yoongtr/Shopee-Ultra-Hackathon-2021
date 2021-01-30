@@ -9,7 +9,12 @@ function FoodComponent() {
     return (
         <div className="container-fluid">
             <div className="row align-center">
-                <img style={{'height':"150px"}} className="d-block w-100" src={CheeseCakeImage} />
+                <img style={{'width':"100vw"}} className="d-block w-100" src={CheeseCakeImage} />
+            </div>
+            <div className='row align-center'>
+                <h2>Cheesecake</h2>
+                <p>As much as I love cheesecake, I’ve never published a classic cheesecake recipe. There’s always been peanut butter, sprinkles, blueberry swirls, Snickers cheesecake, pumpkin, lemon, red velvet, or Nutella. That’s a lot of cheesecake recipes without a single nod to where it all originates: classic cheesecake.
+                </p>
             </div>
             <div>
                 <Button>
@@ -17,7 +22,13 @@ function FoodComponent() {
                 </Button>
             </div>
             <div className="row align-center">
-                <img style={{'height':"150px"}} className="d-block w-100" src={MakiSushi} />
+                <img style={{'width':"100vw"}} className="d-block w-100" src={MakiSushi} />
+            </div>
+            <div className='row align-center'>
+                <h2>MakiSushi</h2>
+                <p>
+                Sushi rolls, or ‘makizushi’ in Japanese, are what most non-Japanese people think of when they think of sushi. Makizushi is made by wrapping up fillings in rice and nori seaweed. This recipe shows you how to make a basic makizushi roll, which can then be filled with whatever fillings you desire. Master the technique and get creative. 
+                </p>
             </div>
             <div>
                 <Button>

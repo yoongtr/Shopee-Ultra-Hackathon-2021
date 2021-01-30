@@ -5,6 +5,7 @@
   "main": "src/index.tsx",
   "dependencies": {
     "@hot-loader/react-dom": "^16.8.6",
+    "bootstrap": "^4.6.0",
     "classnames": "^2.2.6",
     "core-js": "^3.6.4",
     "file-loader": "^5.1.0",
