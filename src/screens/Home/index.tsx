@@ -7,7 +7,7 @@ import { Link, LinkBack } from 'libraries/components/Link';
 // import './styles.scss';
 
 import BootstrapCarousel from 'screens/Carousel';
-import { Jumbotron, Carousel, CarouselItem } from 'reactstrap';
+import { Jumbotron, Footer } from 'reactstrap';
 
 function Home() {
   // Start creating your awesome app here
@@ -26,6 +26,9 @@ function Home() {
             </div>
           </Jumbotron>
           <BootstrapCarousel />
+          <div className="container mt-3 justify-content-center bg-light">
+                Want to be an influencer? Sign up <Link to='/be-an-influencer'>here</Link>!
+          </div>
         </div>
     </div>
   );
