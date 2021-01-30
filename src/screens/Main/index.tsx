@@ -10,6 +10,7 @@ import './styles.scss';
 
 import Navbar from 'screens/Navbar';
 import Home from 'screens/Home';
+import InfluencerForm from 'screens/InfluencerForm';
 import FoodComponent from 'screens/FoodComponent';
 import FashionComponent from 'screens/FashionComponent';
 import CNYComponent from 'screens/CNYComponent';
@@ -25,7 +26,7 @@ function Main() {
         <Router>
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route exact path='/be-an-influencer' component={Home} />
+            <Route exact path='/be-an-influencer' component={InfluencerForm} />
             <Route path='/food' component={FoodComponent} />
             <Route path='/fashion' component={FashionComponent} />
             <Route path='/cny' component={CNYComponent} />
