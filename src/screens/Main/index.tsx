@@ -50,12 +50,8 @@ function Main() {
         <Router>
           <Switch>
             <Route exact path='/' component={Home} />
-<<<<<<< HEAD
             <Route exact path='/be-an-influencer' component={InfluencerForm} />
             <Route exact path='/customize-feed' component={Customise} />
-=======
-            <Route path='/be-an-influencer' component={InfluencerForm} />
->>>>>>> fc882bfd69c01a501239bc554c6bd09fc2e94d56
             <Route path='/food' component={FoodComponent} />
             <Route path='/fashion' component={FashionComponent} />
             <Route path='/cny' component={CNYComponent} />
