@@ -79,29 +79,33 @@ function BootstrapCarousel() {
 
     return (  
         <div className="container-fluid">
+            <div className="justify-content-center text-center">
+                <p>Based on your likes and purchases, we suggest the following content just for you!</p>
+                <p>To edit your feed, click <Link to='/customize-feed'>here</Link>.</p>
+            </div>
             <hr></hr>
-            <div className="row align-center">
+            <div className="justify-content-center">
                 <img style={{'width':"100vw"}} className="d-block w-100" src={CheeseCakeImage} />
             </div>
-            <div>
+            <div className="row justify-content-center">
                 <Button>
                     <Link to='/food'>Check out more recipes!</Link>
                 </Button>
             </div>
             <hr></hr>
-            <div className="row align-center">
+            <div className="justify-content-center">
                 <img style={{'width':"100vw"}} className="d-block w-100" src={FashionImage} />
             </div>
-            <div>
+            <div className="row justify-content-center">
                 <Button>
-                    <Link to='/fashion'>Copy these looks</Link>
+                    <Link to='/fashion'>Copy these trending OOTDs!</Link>
                 </Button>
             </div>
             <hr></hr>
-            <div className="row align-center">
+            <div className="justify-content-center">
                 <img style={{'width':"100vw"}} className="d-block w-100" src={CNYImage} />
             </div>  
-            <div>
+            <div className="row justify-content-center">
                 <Button>
                     <Link to='/cny'>Haven't bough CNY stuff in time? Click here!</Link>
                 </Button>

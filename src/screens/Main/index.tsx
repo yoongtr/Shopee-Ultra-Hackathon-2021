@@ -8,9 +8,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // Stylings
 import './styles.scss';
 
-import Navbar from 'screens/Navbar';
+
 import Home from 'screens/Home';
-import Customise from 'screens/Customise';
 import InfluencerForm from 'screens/InfluencerForm';
 import FoodComponent from 'screens/FoodComponent';
 import FashionComponent from 'screens/FashionComponent';
@@ -39,6 +38,9 @@ import CNY2Component from 'screens/d-CNY2';
 import CarpetCompare from 'screens/d-CNY2-Carpet';
 import CushionCompare from 'screens/d-CNY2-Cushion';
 import VaseCompare from 'screens/d-CNY2-Vase';
+import Customise from 'screens/Customise';
+import Navbar from 'screens/Navbar';
+
 // import FoodComponent from 'screens/FoodComponent';
 
 
@@ -50,8 +52,7 @@ function Main() {
         <Router>
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route exact path='/be-an-influencer' component={InfluencerForm} />
-            <Route exact path='/customize-feed' component={Customise} />
+            <Route path='/be-an-influencer' component={InfluencerForm} />
             <Route path='/food' component={FoodComponent} />
             <Route path='/fashion' component={FashionComponent} />
             <Route path='/cny' component={CNYComponent} />
@@ -79,6 +80,7 @@ function Main() {
             <Route path='/compare-carpet' component={CarpetCompare} />
             <Route path='/compare-cushion' component={CushionCompare} />
             <Route path='/compare-vase' component={VaseCompare} />
+            <Route path='/customize-feed' component={Customise} />
             
           </Switch>
       </Router>

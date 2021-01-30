@@ -21,7 +21,7 @@ function Customise() {
   // Start creating your awesome app here
   return (
     <div>
-        <div>
+        
           <Jumbotron>
             <div className="container">
                 <div className="row row-header">
@@ -62,13 +62,16 @@ function Customise() {
                     <input type="checkbox"></input>
                     <img style={{'width':"100vw"}} className="d-block w-100" src={HomeImage} />
                     <h5> Home/Living </h5>
-                    <Button style="align-left">
-                        <Link to='/'>Bring Me These!</Link>
-                    </Button>
                 </div>
               </div>
           </div>
-        </div>
+          <div className="d-flex justify-content-center">
+              <Button>
+                    <Link to='/'>Bring Me These!</Link>
+                </Button> 
+            </div>
+        
+
     </div>
   );
 }

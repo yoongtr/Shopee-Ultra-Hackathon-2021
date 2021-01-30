@@ -7,26 +7,24 @@ import { Link, LinkBack } from 'libraries/components/Link';
 // import './styles.scss';
 
 import BootstrapCarousel from 'screens/Carousel';
-import { Jumbotron } from 'reactstrap';
+import { Jumbotron, Carousel, CarouselItem } from 'reactstrap';
 
 function Home() {
   // Start creating your awesome app here
   return (
     <div>
-        <div>
+        <div className="container-fluid">
           <Jumbotron>
-            <div className="container">
+            <div>
                 <div className="row row-header">
-                    <div className="col-12">
+                    <div className="container-fluid col-12">
                         <h1>PieceOfCake</h1>
                         <p>Easy feature to find all items you need, in one click. Shopping now is just a piece of cake!</p>
                     </div>
                 </div>
             </div>
           </Jumbotron>
-          <div className="container">
-            <BootstrapCarousel />
-          </div>
+          <BootstrapCarousel />
         </div>
     </div>
   );
