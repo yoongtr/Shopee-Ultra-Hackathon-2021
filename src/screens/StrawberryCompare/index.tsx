@@ -56,21 +56,15 @@ function StrawberryCompare() {
     return (
         <div className='container-fluid'>
             <div className='row'>
-            <div className='column'>
+            <div className='col-4'>
                 {ItemDetail(7129234967,243827036)}
             </div>
-            <div className='column'>
+            <div className='col-4'>
                 {ItemDetail(4269377771,296575148)}
             </div>
-            <div className='column'>
+            <div className='col-4'>
                 {ItemDetail(9202438062,100214043)}
             </div>
-            </div>
-            <div className="col-6">
-              abc
-            </div>
-            <div className="col-6">
-              weee
             </div>
         </div>
         

@@ -10,6 +10,7 @@ import './styles.scss';
 
 import Navbar from 'screens/Navbar';
 import Home from 'screens/Home';
+import Customise from 'screens/Customise';
 import InfluencerForm from 'screens/InfluencerForm';
 import FoodComponent from 'screens/FoodComponent';
 import FashionComponent from 'screens/FashionComponent';
@@ -28,11 +29,11 @@ function Main() {
   return (
     <div>
       <Navbar />
-      <Jumbotron></Jumbotron>
         <Router>
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/be-an-influencer' component={InfluencerForm} />
+            <Route exact path='/customize-feed' component={Customise} />
             <Route path='/food' component={FoodComponent} />
             <Route path='/fashion' component={FashionComponent} />
             <Route path='/cny' component={CNYComponent} />
