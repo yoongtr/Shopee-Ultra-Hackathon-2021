@@ -2,30 +2,30 @@ import * as React from 'react';
 import { Component } from 'react';
 import Button from 'screens/Button';
 import { Link } from 'react-router-dom';
-import CheeseCakeImage from 'assets/common/images/cheesecake.jpg';
-import MakiSushi from 'assets/common/images/makisushi.jpg';
+import Fashion1 from 'assets/common/images/fashion1.jpg';
+import Fashion2 from 'assets/common/images/Fashion2.jpg';
 
-function FoodComponent() {
+function FashionComponent() {
     return (
         <div className="container-fluid">
             <div className="row align-center">
-                <img style={{'height':"150px"}} className="d-block w-100" src={CheeseCakeImage} />
+                <img style={{'height':"100vw"}} className="d-block w-100" src={Fashion1} />
             </div>
             <div>
                 <Button>
-                    <Link to='/food1'>Buy the ingredients</Link>
+                    <Link to='/food1'>Buy the items</Link>
                 </Button>
             </div>
             <div className="row align-center">
-                <img style={{'height':"150px"}} className="d-block w-100" src={MakiSushi} />
+                <img style={{'height':"100vw"}} className="d-block w-100" src={Fashion2} />
             </div>
             <div>
                 <Button>
-                    <Link to='/food2'>Buy the ingredients</Link>
+                    <Link to='/food2'>Buy the items</Link>
                 </Button>
             </div>
         </div>
     )
 }
 
-export default FoodComponent;
+export default FashionComponent;

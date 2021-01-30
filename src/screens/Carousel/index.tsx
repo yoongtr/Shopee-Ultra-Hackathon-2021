@@ -9,6 +9,7 @@ import {
     CarouselIndicators,
     CarouselCaption
   } from 'reactstrap';
+import { Link, LinkBack , LinkToCart} from 'libraries/components/Link';
 import Button from 'screens/Button';
 import CheeseCakeImage from 'assets/common/images/cheesecake.jpg';
 import FashionImage from 'assets/common/images/fashionguy.jpg';
@@ -82,30 +83,24 @@ function BootstrapCarousel() {
                 <img style={{'height':"150px"}} className="d-block w-100" src={CheeseCakeImage} />
             </div>
             <div>
-                <Button
-                href="/food"
-                >
-                Check out more recipes!
+                <Button>
+                    <Link to='/food'>Check out more recipes!</Link>
                 </Button>
             </div>
             <div className="row align-center">
                 <img style={{'height':"150px"}} className="d-block w-100" src={FashionImage} />
             </div>
             <div>
-                <Button
-                href="/food"
-                >
-                Copy these looks!
+                <Button>
+                    <Link to='/fashion'>Copy these looks</Link>
                 </Button>
             </div>
             <div className="row align-center">
                 <img style={{'height':"150px"}} className="d-block w-100" src={CNYImage} />
             </div>  
             <div>
-                <Button
-                href="/food"
-                >
-                Haven't bough CNY stuff in time? Click here!
+                <Button>
+                    <Link to='/cny'>Haven't bough CNY stuff in time? Click here!</Link>
                 </Button>
             </div>
             {/* <Example /> */}
