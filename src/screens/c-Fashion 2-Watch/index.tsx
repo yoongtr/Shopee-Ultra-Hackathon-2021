@@ -52,18 +52,18 @@ function ItemDetail(input_itemid, input_shopid) {
   );
 }
 
-function SunglassesCompare() {
+function WatchCompare() {
     return (
         <div className='container-fluid'>
             <div className='row'>
             <div className='column'>
-                {ItemDetail(3335013287,264138227)}
+                {ItemDetail(1849673162,118071228)}
             </div>
             <div className='column'>
-                {ItemDetail(6246010269,18185692)}
+                {ItemDetail(4158399799,293603701)}
             </div>
             <div className='column'>
-                {ItemDetail(6435245384,264138227)}
+                {ItemDetail(4608373534,171947507)}
             </div>
             </div>
         </div>
@@ -71,4 +71,4 @@ function SunglassesCompare() {
     );
 }
 
-export default SunglassesCompare;
+export default WatchCompare;

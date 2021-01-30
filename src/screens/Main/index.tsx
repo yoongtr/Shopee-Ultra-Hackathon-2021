@@ -26,6 +26,18 @@ import Fashion1 from 'screens/c-Fashion1';
 import CardiganCompare from 'screens/c-Fashion1-Cardigan';
 import SunglassesCompare from 'screens/c-Fashion1-Sunglasses';
 import ShoesCompare from 'screens/c-Fashion1-Shoes';
+import Fashion2 from 'screens/c-Fashion 2';
+import JeansCompare from 'screens/c-Fashion 2-Jeans';
+import ShirtCompare from 'screens/c-Fashion 2-Shirt';
+import WatchCompare from 'screens/c-Fashion 2-Watch';
+import CNY1Component from 'screens/d-CNY1';
+import AngbaoCompare from 'screens/d-CNY1-Angbao';
+import BakkwaCompare from 'screens/d-CNY1-Bakkwa';
+import PineappleTartCompare from 'screens/d-CNY1-PineappleTart';
+import CNY2Component from 'screens/d-CNY2';
+import CarpetCompare from 'screens/d-CNY2-Carpet';
+import CushionCompare from 'screens/d-CNY2-Cushion';
+import VaseCompare from 'screens/d-CNY2-Vase';
 // import FoodComponent from 'screens/FoodComponent';
 
 
@@ -53,6 +65,18 @@ function Main() {
             <Route path='/compare-cardigan' component={CardiganCompare} />
             <Route path='/compare-sunglasses' component={SunglassesCompare} />
             <Route path='/compare-shoes' component={ShoesCompare} />
+            <Route path='/fashion2' component={Fashion2} />
+            <Route path='/compare-jeans' component={JeansCompare} />
+            <Route path='/compare-shirt' component={ShirtCompare} />
+            <Route path='/compare-watch' component={WatchCompare} />
+            <Route path='/cny1' component={CNY1Component} />
+            <Route path='/compare-angbao' component={AngbaoCompare} />
+            <Route path='/compare-bakkwa' component={BakkwaCompare} />
+            <Route path='/compare-pineappletart' component={PineappleTartCompare} />
+            <Route path='/cny2' component={CNY2Component} />
+            <Route path='/compare-carpet' component={CarpetCompare} />
+            <Route path='/compare-cushion' component={CushionCompare} />
+            <Route path='/compare-vase' component={VaseCompare} />
             
           </Switch>
       </Router>

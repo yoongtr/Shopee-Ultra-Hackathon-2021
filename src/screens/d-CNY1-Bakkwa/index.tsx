@@ -52,18 +52,18 @@ function ItemDetail(input_itemid, input_shopid) {
   );
 }
 
-function SunglassesCompare() {
+function BakkwaCompare() {
     return (
         <div className='container-fluid'>
             <div className='row'>
             <div className='column'>
-                {ItemDetail(3335013287,264138227)}
+                {ItemDetail(7036147465,213419536)}
             </div>
             <div className='column'>
-                {ItemDetail(6246010269,18185692)}
+                {ItemDetail(5014201561,91799978)}
             </div>
             <div className='column'>
-                {ItemDetail(6435245384,264138227)}
+                {ItemDetail(3270797880,91799978)}
             </div>
             </div>
         </div>
@@ -71,4 +71,4 @@ function SunglassesCompare() {
     );
 }
 
-export default SunglassesCompare;
+export default BakkwaCompare;

@@ -6,7 +6,7 @@ import { getImageUrl } from 'libraries/utils/url';
 import { get } from 'libraries/utils/fetch';
 
 import styles from './styles.scss';
-// import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css'
 
 function ItemDetail(input_itemid, input_shopid) {
   const [item, setItem] = React.useState(null);
@@ -52,23 +52,23 @@ function ItemDetail(input_itemid, input_shopid) {
   );
 }
 
-function SunglassesCompare() {
+function CushionCompare() {
     return (
         <div className='container-fluid'>
             <div className='row'>
             <div className='column'>
-                {ItemDetail(3335013287,264138227)}
+                {ItemDetail(5772442362,284783592)}
             </div>
             <div className='column'>
-                {ItemDetail(6246010269,18185692)}
+                {ItemDetail(5373934775,260611055)}
             </div>
             <div className='column'>
-                {ItemDetail(6435245384,264138227)}
+                {ItemDetail(4574014480,286176932)}
             </div>
             </div>
+            
         </div>
-        
     );
 }
 
-export default SunglassesCompare;
+export default CushionCompare;
