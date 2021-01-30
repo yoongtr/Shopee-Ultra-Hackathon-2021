@@ -7,7 +7,7 @@ import { Link, LinkBack } from 'libraries/components/Link';
 // import './styles.scss';
 
 import BootstrapCarousel from 'screens/Carousel';
-import { Jumbotron, Footer } from 'reactstrap';
+import { Jumbotron } from 'reactstrap';
 
 function Home() {
   // Start creating your awesome app here
