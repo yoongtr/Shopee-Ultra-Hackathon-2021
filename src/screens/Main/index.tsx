@@ -14,6 +14,11 @@ import InfluencerForm from 'screens/InfluencerForm';
 import FoodComponent from 'screens/FoodComponent';
 import FashionComponent from 'screens/FashionComponent';
 import CNYComponent from 'screens/CNYComponent';
+import CheeseCakeComponent from 'screens/Food1';
+import CreamCheeseCompare from 'screens/CreamCheeseCompare';
+import StrawberryCompare from 'screens/StrawberryCompare';
+import SugarCompare from 'screens/SugarCompare';
+import { Jumbotron } from 'reactstrap';
 
 // import FoodComponent from 'screens/FoodComponent';
 
@@ -23,6 +28,7 @@ function Main() {
   return (
     <div>
       <Navbar />
+      <Jumbotron></Jumbotron>
         <Router>
           <Switch>
             <Route exact path='/' component={Home} />
@@ -30,6 +36,11 @@ function Main() {
             <Route path='/food' component={FoodComponent} />
             <Route path='/fashion' component={FashionComponent} />
             <Route path='/cny' component={CNYComponent} />
+            <Route path='/food1' component={CheeseCakeComponent} />
+            <Route path='/compare-creamcheese' component={CreamCheeseCompare} />
+            <Route path='/compare-strawberry' component={StrawberryCompare} />
+            <Route path='/compare-sugar' component={SugarCompare} />
+            
           </Switch>
       </Router>
     </div>

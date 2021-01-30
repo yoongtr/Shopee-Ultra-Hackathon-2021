@@ -9,7 +9,7 @@ function FashionComponent() {
     return (
         <div className="container-fluid">
             <div className="row align-center">
-                <img style={{'height':"100vw"}} className="d-block w-100" src={Fashion1} />
+                <img style={{'width':"100vw"}} className="d-block w-100" src={Fashion1} />
             </div>
             <div>
                 <Button>
@@ -17,7 +17,7 @@ function FashionComponent() {
                 </Button>
             </div>
             <div className="row align-center">
-                <img style={{'height':"100vw"}} className="d-block w-100" src={Fashion2} />
+                <img style={{'width':"100vw"}} className="d-block w-100" src={Fashion2} />
             </div>
             <div>
                 <Button>

@@ -9,7 +9,7 @@ function CNYComponent() {
     return (
         <div className="container-fluid">
             <div className="row align-center">
-                <img style={{'height':"150px"}} className="d-block w-100" src={CNY1} />
+                <img style={{'width':"100vw"}} className="d-block w-100" src={CNY1} />
             </div>
             <div>
                 <Button>
@@ -17,7 +17,7 @@ function CNYComponent() {
                 </Button>
             </div>
             <div className="row align-center">
-                <img style={{'height':"150px"}} className="d-block w-100" src={CNY2} />
+                <img style={{'width':"100vw"}} className="d-block w-100" src={CNY2} />
             </div>
             <div>
                 <Button>

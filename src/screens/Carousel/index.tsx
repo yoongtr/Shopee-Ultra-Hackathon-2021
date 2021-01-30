@@ -79,24 +79,27 @@ function BootstrapCarousel() {
 
     return (  
         <div className="container-fluid">
+            <hr></hr>
             <div className="row align-center">
-                <img style={{'height':"150px"}} className="d-block w-100" src={CheeseCakeImage} />
+                <img style={{'width':"100vw"}} className="d-block w-100" src={CheeseCakeImage} />
             </div>
             <div>
                 <Button>
                     <Link to='/food'>Check out more recipes!</Link>
                 </Button>
             </div>
+            <hr></hr>
             <div className="row align-center">
-                <img style={{'height':"150px"}} className="d-block w-100" src={FashionImage} />
+                <img style={{'width':"100vw"}} className="d-block w-100" src={FashionImage} />
             </div>
             <div>
                 <Button>
                     <Link to='/fashion'>Copy these looks</Link>
                 </Button>
             </div>
+            <hr></hr>
             <div className="row align-center">
-                <img style={{'height':"150px"}} className="d-block w-100" src={CNYImage} />
+                <img style={{'width':"100vw"}} className="d-block w-100" src={CNYImage} />
             </div>  
             <div>
                 <Button>

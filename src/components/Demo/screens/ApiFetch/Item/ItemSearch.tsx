@@ -44,11 +44,20 @@ function ItemSearch() {
         <div>Searching...</div>
       ) : (
         <ul className={styles.searchResults}>
+          
           {(items || []).map((item, index) => {
             return (
+              
+              <div>
+              <li>{item.name}</li>
+              <li>{item.shop_id}</li>
+              <li>{item.item_id}</li>
               <li key={index}>
                 {item.name} - {item.rating}
               </li>
+              </div>
+              
+              
             );
           })}
         </ul>
