@@ -62,6 +62,12 @@ function Customise() {
                     <input type="checkbox"></input>
                     <img style={{'width':"100vw"}} className="d-block w-100" src={HomeImage} />
                     <h5> Home/Living </h5>
+<<<<<<< HEAD
+=======
+                    <Button>
+                        <Link to='/'>Bring Me These!</Link>
+                    </Button>
+>>>>>>> 6efce7ca7b7c7dc5fa7dd2c95f9b770e32a94ef9
                 </div>
               </div>
           </div>

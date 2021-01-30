@@ -8,7 +8,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // Stylings
 import './styles.scss';
 
-
 import Home from 'screens/Home';
 import InfluencerForm from 'screens/InfluencerForm';
 import FoodComponent from 'screens/FoodComponent';
