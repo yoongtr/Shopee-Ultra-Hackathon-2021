@@ -14,11 +14,13 @@ function CNY2Component() {
     return (
         
         <div className="container-fluid">
-            <div className="row align-center">
+            <div className="container-fluid bg-light mt-3">
+            <div className="justify-content-center">
                 <img style={{'width':"100vw"}} className="d-block w-100" src={CNY2image} />
             </div>
-            <div className="row align-center">
+            <div className="justify-content-center mt-3">
                 <h2>Trending CNY Items For Home Decorations!</h2>
+                <p>-by Anna-</p>
                 <p>Items list</p>
                 <ul>
                     <li>
@@ -32,13 +34,22 @@ function CNY2Component() {
                     </li>
                 </ul>
             </div>
-            <div>
+            <div className="justify-content-center">
+                Or add all the top search results into cart in one go!
                 <Button>
                     <LinkToCart>Add all to Cart</LinkToCart>
                 </Button>
             </div>
-            <div>
-                Add the top search results into cart for all products
+            <div className="justify-content-center">
+                <hr></hr>
+            </div>
+            <div className="justify-content-center">
+                <h3>Anna's reviews</h3>
+                <p>
+                Chinese New Year is the busiest time of the year, with decorating, cooking, visiting, playing mahjong – it’s all about the hustle and bustle! Even though we’re not able to celebrate the way we did before, we can still amp up the festive vibes by decorating our homes. For this purpose, Shopee offers a huge variety of decorations at extremely affordable prices! Here are my top 10 finds for Chinese New Year home decorations.
+                </p>
+
+            </div>
             </div>
         </div>
     )

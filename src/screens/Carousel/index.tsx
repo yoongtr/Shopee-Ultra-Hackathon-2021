@@ -11,9 +11,9 @@ import styles from './styles.scss';
 //   } from 'reactstrap';
 import { Link, LinkBack , LinkToCart} from 'libraries/components/Link';
 import Button from 'screens/Button';
-import CheeseCakeImage from 'assets/common/images/cheesecake.jpg';
-import FashionImage from 'assets/common/images/fashionguy.jpg';
-import CNYImage from 'assets/common/images/cny.jpg';
+import CheeseCakeImage from 'assets/common/images/foodcollage.jpg';
+import FashionImage from 'assets/common/images/fahioncollage.jpg';
+import CNYImage from 'assets/common/images/cny1.jpg';
 
 function BootstrapCarousel() {
     // const items = [
@@ -84,28 +84,37 @@ function BootstrapCarousel() {
                 <p>To edit your feed, click <Link to='/customize-feed'>here</Link>.</p>
             </div>
             <hr></hr>
+            <div className="row justify-content-center">
+                <h2>Top Food Recipes</h2>
+            </div>
             <div className="justify-content-center">
                 <img style={{'width':"100vw"}} className="d-block w-100" src={CheeseCakeImage} />
             </div>
-            <div className="row justify-content-center">
+            <div className="row justify-content-center mt-3">
                 <Button>
                     <Link to='/food'>Check out more recipes!</Link>
                 </Button>
             </div>
             <hr></hr>
+            <div className="row justify-content-center">
+                <h2>Trending OOTDs</h2>
+            </div>
             <div className="justify-content-center">
                 <img style={{'width':"100vw"}} className="d-block w-100" src={FashionImage} />
             </div>
-            <div className="row justify-content-center">
+            <div className="row justify-content-center mt-3">
                 <Button>
                     <Link to='/fashion'>Copy these trending OOTDs!</Link>
                 </Button>
             </div>
             <hr></hr>
+            <div className="row justify-content-center">
+                <h2>Happy CNY!</h2>
+            </div>
             <div className="justify-content-center">
                 <img style={{'width':"100vw"}} className="d-block w-100" src={CNYImage} />
             </div>  
-            <div className="row justify-content-center">
+            <div className="row justify-content-center mt-3">
                 <Button>
                     <Link to='/cny'>Haven't bough CNY stuff in time? Click here!</Link>
                 </Button>

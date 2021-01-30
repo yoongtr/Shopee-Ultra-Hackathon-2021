@@ -14,11 +14,13 @@ function CNY1Component() {
     return (
         
         <div className="container-fluid">
-            <div className="row align-center">
+            <div className="container-fluid bg-light mt-3">
+            <div className="justify-content-center">
                 <img style={{'width':"100vw"}} className="d-block w-100" src={WomenFash} />
             </div>
-            <div className="row align-center">
+            <div className="justify-content-center mt-3">
                 <h2>Trending CNY Items!</h2>
+                <p>-by Hong Yu-</p>
                 <p>Items list</p>
                 <ul>
                     <li>
@@ -32,13 +34,22 @@ function CNY1Component() {
                     </li>
                 </ul>
             </div>
-            <div>
+            <div className="justify-content-center">
+                Or add all the top search results into cart in one go!
                 <Button>
                     <LinkToCart>Add all to Cart</LinkToCart>
                 </Button>
             </div>
-            <div>
-                Add the top search results into cart for all products
+            <div className="justify-content-center">
+                <hr></hr>
+            </div>
+            <div className="justify-content-center">
+                <h3>Hong Yu's reviews</h3>
+                <p>
+                Whether presented as gifts or left at home as snacks to offer guests, delectable goodies usually come to define CNY celebrations at home. These snacks are undoubtedly good to eat but there is actually a reason why people mainly have them during Chinese New Year.                
+                </p>
+
+            </div>
             </div>
         </div>
     )

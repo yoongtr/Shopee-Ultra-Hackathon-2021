@@ -8,10 +8,10 @@ import Fashion2 from 'assets/common/images/Fashion2.jpg';
 function FashionComponent() {
     return (
         <div className="container-fluid">
-            <div className="justify-content-center">
+            <div className="justify-content-center mt-3">
                 <img style={{'width':"100vw"}} className="d-block w-100" src={Fashion1} />
             </div>
-            <div className="justify-content-center">
+            <div className="justify-content-center mt-3">
             <p><h2>Mid-Summer Outfit</h2>- by Jisoo -</p>
                 <p>Fashion enthusiasts out there have no doubt heard about the ever-popular Seoul Fashion Week held every year! With all the creative designers and inspirations shown previously, it is safe to say that it is one of our favourite Korean events year-round.
                 </p>
@@ -27,7 +27,7 @@ function FashionComponent() {
             <div className="justify-content-center">
                 <img style={{'width':"100vw"}} className="d-block w-100" src={Fashion2} />
             </div>
-            <div className="justify-content-center">
+            <div className="justify-content-center mt-3">
                 <h2>Urban Style for Guys</h2>
                 <p>- by Jack -</p>
                 <p>

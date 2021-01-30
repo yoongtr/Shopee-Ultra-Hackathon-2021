@@ -20,6 +20,7 @@ function Home() {
                     <div className="container-fluid col-12">
                         <h1>PieceOfCake</h1>
                         <p>Easy feature to find all items you need, in one click. Shopping now is just a piece of cake!</p>
+                        <p>Embrace the #ShopeeLifestyle and find inspirations for your hobbies from cooking, fashion to home decoration. </p>
                     </div>
                 </div>
             </div>
