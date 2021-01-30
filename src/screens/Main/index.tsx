@@ -8,7 +8,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // Stylings
 import './styles.scss';
 
-import Navbar from 'screens/Navbar';
 import Home from 'screens/Home';
 import Customise from 'screens/Customise';
 import InfluencerForm from 'screens/InfluencerForm';
@@ -39,6 +38,8 @@ import CNY2Component from 'screens/d-CNY2';
 import CarpetCompare from 'screens/d-CNY2-Carpet';
 import CushionCompare from 'screens/d-CNY2-Cushion';
 import VaseCompare from 'screens/d-CNY2-Vase';
+import Navbar from 'screens/Navbar';
+
 // import FoodComponent from 'screens/FoodComponent';
 
 
