@@ -13,7 +13,7 @@ function FashionComponent() {
             </div>
             <div>
                 <Button>
-                    <Link to='/food1'>Buy the items</Link>
+                    <Link to='/fashion1'>Buy the items</Link>
                 </Button>
             </div>
             <div className="row align-center">
@@ -21,7 +21,7 @@ function FashionComponent() {
             </div>
             <div>
                 <Button>
-                    <Link to='/food2'>Buy the items</Link>
+                    <Link to='/fashion2'>Buy the items</Link>
                 </Button>
             </div>
         </div>

@@ -2,13 +2,13 @@ import * as React from 'react';
 import { useState } from 'react';
 import cx from 'classnames';
 import styles from './styles.scss';
-import {
-    Carousel,
-    CarouselItem,
-    CarouselControl,
-    CarouselIndicators,
-    CarouselCaption
-  } from 'reactstrap';
+// import {
+//     Carousel,
+//     CarouselItem,
+//     CarouselControl,
+//     CarouselIndicators,
+//     CarouselCaption
+//   } from 'reactstrap';
 import { Link, LinkBack , LinkToCart} from 'libraries/components/Link';
 import Button from 'screens/Button';
 import CheeseCakeImage from 'assets/common/images/cheesecake.jpg';

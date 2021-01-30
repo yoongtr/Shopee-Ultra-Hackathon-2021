@@ -11,7 +11,6 @@ import { Link, LinkBack , LinkToCart} from 'libraries/components/Link';
 import ShopeeLogo from 'assets/common/images/shopee.png';
 import BackButton from './back-button.svg';
 import BurgerMenu from './burger-menu.svg';
-import IconLink from './link.svg';
 
 // Types
 import { RouteComponentProps } from 'react-router';
@@ -60,6 +59,7 @@ function Navbar({ location }: RouteComponentProps) {
           </li>
         );
       })}
+
       <li
         className={cx(s.menu)}
         onClick={toggleMenu}
@@ -81,3 +81,4 @@ function Navbar({ location }: RouteComponentProps) {
 }
 
 export default withRouter(Navbar);
+
