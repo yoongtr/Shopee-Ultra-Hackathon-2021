@@ -1,0 +1,25 @@
+<<<<<<< HEAD
+=======
+@import 'bootstrap/scss/bootstrap.scss';
+
+:root {
+    --navbar-height: 50px;
+  
+    @media (max-height: 768px) {
+      --navbar-height: 44px;
+    }
+  }
+  
+  .app-container {
+    margin: 0;
+  }
+  
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .hr {
+    color: white;
+  }
+>>>>>>> fc882bfd69c01a501239bc554c6bd09fc2e94d56
