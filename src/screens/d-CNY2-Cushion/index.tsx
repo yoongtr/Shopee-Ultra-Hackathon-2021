@@ -2,6 +2,10 @@ import * as React from 'react';
 
 import consts from 'consts';
 
+import {
+  LinkToProduct
+} from 'libraries/components/Link';
+
 import { getImageUrl } from 'libraries/utils/url';
 import { get } from 'libraries/utils/fetch';
 
@@ -37,18 +41,22 @@ function ItemDetail(input_itemid, input_shopid) {
   }
 
   return (
-    <div className={styles.itemDetailContainer}>
-      <h3 className={styles.itemName}>{item.name}</h3>
-      <img
-        className={styles.itemImage}
-        src={getImageUrl(item.cover)}
-        width='100'
-      />
-      
-      <div>Price: ${item.price}</div>
-      <div>Sold: {item.sold}</div>
-      <div>Stock: {item.stock}</div>
+    <div className="container-fluid">
+      <div className={styles.itemDetailContainer}>
+        <p></p>
+        <img
+          className={styles.itemImage}
+          src={getImageUrl(item.cover)}
+          width='100'
+        />
+        <h3 className={styles.itemName}><LinkToProduct shopid={item.shop_id} itemid={item.item_id}>{item.name}</LinkToProduct></h3> 
+        <div>Price: ${item.price}</div>
+        <div>Sold: {item.sold}</div>
+        <div>Ratings: {item.rating}</div>
+        <p></p>
+      </div>
     </div>
+    
   );
 }
 
@@ -56,13 +64,13 @@ function CushionCompare() {
     return (
         <div className='container-fluid'>
             <div className='row'>
-            <div className='column'>
+            <div className='col-12'>
                 {ItemDetail(5772442362,284783592)}
             </div>
-            <div className='column'>
+            <div className='col-12'>
                 {ItemDetail(5373934775,260611055)}
             </div>
-            <div className='column'>
+            <div className='col-12'>
                 {ItemDetail(4574014480,286176932)}
             </div>
             </div>

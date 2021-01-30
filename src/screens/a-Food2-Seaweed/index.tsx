@@ -2,11 +2,15 @@ import * as React from 'react';
 
 import consts from 'consts';
 
+import {
+  LinkToProduct
+} from 'libraries/components/Link';
+
 import { getImageUrl } from 'libraries/utils/url';
 import { get } from 'libraries/utils/fetch';
 
 import styles from './styles.scss';
-// import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css'
 
 function ItemDetail(input_itemid, input_shopid) {
   const [item, setItem] = React.useState(null);
@@ -37,33 +41,37 @@ function ItemDetail(input_itemid, input_shopid) {
   }
 
   return (
-    <div className={styles.itemDetailContainer}>
-      <h3 className={styles.itemName}>{item.name}</h3>
-      <img
-        className={styles.itemImage}
-        src={getImageUrl(item.cover)}
-        width='100'
-      />
-      
-      <div>Price: ${item.price}</div>
-      <div>Sold: {item.sold}</div>
-      <div>Stock: {item.stock}</div>
+    <div className="container-fluid">
+      <div className={styles.itemDetailContainer}>
+        <p></p>
+        <img
+          className={styles.itemImage}
+          src={getImageUrl(item.cover)}
+          width='100'
+        />
+        <h3 className={styles.itemName}><LinkToProduct shopid={item.shop_id} itemid={item.item_id}>{item.name}</LinkToProduct></h3> 
+        <div>Price: ${item.price}</div>
+        <div>Sold: {item.sold}</div>
+        <div>Ratings: {item.rating}</div>
+        <p></p>
+      </div>
     </div>
+    
   );
 }
 
-function StrawberryCompare() {
+function SeaweedCompare() {
     return (
         <div className='container-fluid'>
             <div className='row'>
-            <div className='col-4'>
-                {ItemDetail(7129234967,243827036)}
+            <div className='col-12'>
+                {ItemDetail(5427953380,91799978)}
             </div>
-            <div className='col-4'>
-                {ItemDetail(4269377771,296575148)}
+            <div className='col-12'>
+                {ItemDetail(4413193069,195358651)}
             </div>
-            <div className='col-4'>
-                {ItemDetail(9202438062,100214043)}
+            <div className='col-12'>
+                {ItemDetail(2905464107,172333811)}
             </div>
             </div>
         </div>
@@ -71,4 +79,4 @@ function StrawberryCompare() {
     );
 }
 
-export default StrawberryCompare;
+export default SeaweedCompare;

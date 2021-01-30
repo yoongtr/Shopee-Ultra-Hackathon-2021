@@ -8,16 +8,20 @@
   }
 
   .itemDetailContainer {
+    align-items: center;
+    border-bottom: solid;
+    border-color: rgb(170, 170, 170);
     display: flex;
     flex-direction: column;
   }
 
   .itemImage {
-    width: 100%;
+    width: 100vw;
     max-width: 400px;
   }
 
   .itemName {
+    align-content: center;
     margin: 10px 0 15px;
   }
 }
